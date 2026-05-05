@@ -1,0 +1,143 @@
+export const cryptos = [
+  {
+    id: "bitcoin",
+    name: "Bitcoin",
+    symbol: "BTC",
+    price: 43234.5,
+    change: 2.34,
+    marketCap: "$847B",
+    volume: "$28.4B",
+    supply: "19.5M BTC",
+    description:
+      "Bitcoin is the first and most well-known cryptocurrency, created in 2009 by Satoshi Nakamoto.",
+  },
+  {
+    id: "ethereum",
+    name: "Ethereum",
+    symbol: "ETH",
+    price: 2284.1,
+    change: 1.12,
+    marketCap: "$274B",
+    volume: "$12.1B",
+    supply: "120.2M ETH",
+    description:
+      "Ethereum is a decentralized platform that enables smart contracts and decentralized applications.",
+  },
+  {
+    id: "solana",
+    name: "Solana",
+    symbol: "SOL",
+    price: 98.45,
+    change: -0.87,
+    marketCap: "$42B",
+    volume: "$2.3B",
+    supply: "430M SOL",
+    description:
+      "Solana is a high-performance blockchain supporting fast, secure, scalable decentralized apps.",
+  },
+  {
+    id: "cardano",
+    name: "Cardano",
+    symbol: "ADA",
+    price: 0.512,
+    change: 3.21,
+    marketCap: "$18B",
+    volume: "$0.8B",
+    supply: "35B ADA",
+    description:
+      "Cardano is a proof-of-stake blockchain platform built for changemakers and innovators.",
+  },
+  {
+    id: "dogecoin",
+    name: "Dogecoin",
+    symbol: "DOGE",
+    price: 0.0821,
+    change: -1.45,
+    marketCap: "$11B",
+    volume: "$0.5B",
+    supply: "142B DOGE",
+    description:
+      "Dogecoin started as a joke in 2013 but has grown into a serious digital asset.",
+  },
+  {
+    id: "polkadot",
+    name: "Polkadot",
+    symbol: "DOT",
+    price: 7.34,
+    change: 0.98,
+    marketCap: "$9.5B",
+    volume: "$0.3B",
+    supply: "1.3B DOT",
+    description:
+      "Polkadot enables cross-blockchain transfers of any type of data or asset.",
+  },
+  {
+    id: "litecoin",
+    name: "Litecoin",
+    symbol: "LTC",
+    price: 72.18,
+    change: -2.1,
+    marketCap: "$5.3B",
+    volume: "$0.4B",
+    supply: "73.7M LTC",
+    description:
+      "Litecoin is a peer-to-peer cryptocurrency created as a faster, cheaper alternative to Bitcoin.",
+  },
+  {
+    id: "chainlink",
+    name: "Chainlink",
+    symbol: "LINK",
+    price: 14.92,
+    change: 4.56,
+    marketCap: "$8.7B",
+    volume: "$0.6B",
+    supply: "587M LINK",
+    description:
+      "Chainlink is a decentralized oracle network providing real-world data to smart contracts.",
+  },
+];
+
+export const articles = [
+  {
+    id: 1,
+    title: "What is Bitcoin?",
+    description: "Learn about the first and most popular cryptocurrency.",
+    time: "5 min read",
+    emoji: "₿",
+  },
+  {
+    id: 2,
+    title: "What is Ethereum?",
+    description: "Discover how Ethereum enables smart contracts.",
+    time: "6 min read",
+    emoji: "Ξ",
+  },
+  {
+    id: 3,
+    title: "What is a blockchain?",
+    description: "Understand the technology powering all cryptocurrencies.",
+    time: "4 min read",
+    emoji: "🔗",
+  },
+  {
+    id: 4,
+    title: "How to buy crypto safely",
+    description: "A beginner's guide to purchasing cryptocurrency securely.",
+    time: "7 min read",
+    emoji: "🛡️",
+  },
+  {
+    id: 5,
+    title: "What is DeFi?",
+    description: "Explore decentralized finance and how it's changing banking.",
+    time: "8 min read",
+    emoji: "🏦",
+  },
+  {
+    id: 6,
+    title: "What are NFTs?",
+    description: "Learn about non-fungible tokens and digital ownership.",
+    time: "5 min read",
+    emoji: "🎨",
+  },
+];
